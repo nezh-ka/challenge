@@ -168,13 +168,13 @@ $('#logos').owlCarousel({
 window.onload = function(){ 
     function randomInterval() {
     setTimeout(() => {
-        randomInterval();
+       // randomInterval();
         document.getElementById('vall-2').innerHTML = (parseInt(document.getElementById('vall-2').innerHTML.replace(/\s+/g, '')) + 1);
     }, Math.random() * (80000 - 10000) + 10000);      
     }
     function randomInterval2() {
     setTimeout(() => {
-        randomInterval2();
+      //  randomInterval2();
         document.getElementById('vall-1').innerHTML = (parseInt(document.getElementById('vall-1').innerHTML.replace(/\s+/g, '')) + 1);
     }, Math.random() * (8000 - 1200) + 1200);
     }
